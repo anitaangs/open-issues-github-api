@@ -1,0 +1,58 @@
+body {
+    width: 500px;
+    background-color: lightgray;
+    justify-content: center;
+}
+
+hr {
+    background-color: #2a9d8f;
+    height: 5px; 
+    width: 100%;
+}
+
+div h3 {
+    color: #e9c46a;
+    text-align: center;
+    padding: 15px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    border: 3px solid #2a9d8f;
+    border-radius: 5px;
+    background-color: white;
+    margin: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 15px;
+}
+
+
+#usernameInput {
+    border: 2px solid #e9c46a;
+    border-radius: 5px;
+    height: 40px;
+}
+
+#submitButton {
+    background-color: #e9c46a;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+ul {
+    border: 2px solid #2a9d8f;
+    border-radius: 5px;
+}
